@@ -226,7 +226,7 @@ p {
 }
 
 .works-container ul li img {
-  width: 100%;
+  width: 400px;
   height: 300px;
   border: gray 3px solid;
   border-radius: 13px;
