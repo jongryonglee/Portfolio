@@ -202,9 +202,17 @@ p {
 }
 
 /* works section */
+
 .area-home-works {
   height: 800px;
   background-color: black;
+}
+
+@media screen and (max-width: 911px) {
+  .area-home-works {
+    height: 1500px;
+    background-color: black;
+  }
 }
 
 .title-works {
@@ -215,14 +223,13 @@ p {
 
 .works-container ul {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   padding: 0;
 }
 
 .works-container ul li {
-  width: 100%;
-  height: 300px;
   margin: 10px;
-  text-align: center;
 }
 
 .works-container ul li img {
